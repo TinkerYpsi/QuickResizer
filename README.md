@@ -1,4 +1,5 @@
 # QuickResizer
+QuickResizer is an image resizer that shrinks .jpg and .png images to a specified dimension and maintains aspect ratios if requested.
 
 ### Installation
 First, download [Python][python-download]. Make sure to click the **add Python 3.6.4 to PATH** checkbox at the bottom. Then, run Command Prompt as an Administrator, or the Terminal if on Mac, and type `pip install argparse python-resize-image` to install necessary packages.  

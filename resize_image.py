@@ -3,7 +3,7 @@ from PIL import Image
 from resizeimage import resizeimage
 import argparse
 
-parser = argparse.ArgumentParser(description='Shrink some images')
+parser = argparse.ArgumentParser(description='Shrink some .jpg and .png images')
 parser.add_argument('-p', '--path', nargs='?', default='path', type=str, help='desired directory in which to operate (default is current directory)')
 parser.add_argument('-a', '--aspect', nargs='?', default='z', type=str, choices=['x', 'y'], help='[x or y] If specified and -x and -y values would result in a change in aspect ratio, maintain the aspect ratio with the specified axis as the driving parameter.')
 parser.add_argument('-x', nargs='?', default=-100, type=int, help='If -y is not specified, resize using this value and current aspect ratio.')
